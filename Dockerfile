@@ -16,7 +16,7 @@ COPY app/ ./app/
 # Switch to non-root user
 USER appuser
 
-# Expose port
+#Expose port
 EXPOSE 8000
 
 # Start the application
