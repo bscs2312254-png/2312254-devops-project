@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 env:
-  IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/2312102-devops
+  IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/2312254-devops
 
 jobs:
   test:
