@@ -60,7 +60,7 @@ jobs:
           username: ubuntu
           key:      ${{ secrets.SSH_KEY }}
           script: |
-            cd ~/2312102-devops-project
+            cd ~/2312254-devops-project-main
             git pull origin main
             docker compose -f docker-compose.prod.yml pull
             docker compose -f docker-compose.prod.yml down
