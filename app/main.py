@@ -42,7 +42,7 @@ def health_check(db: Session = Depends(get_db)):
         db_status = "connected"
     except Exception:
         db_status = "disconnected"
-    return {"status": "ok", "db": db_status, "student": "2312102"}
+    return {"status": "ok", "db": db_status, "student": "2312254"}
 
 
 @app.post("/students", response_model=StudentResponse, status_code=201)
